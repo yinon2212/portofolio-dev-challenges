@@ -109,8 +109,8 @@ const App = () => {
                 imgSrc={require("../res/profile-img.png")}
                 fullName="Yinon Megidesh"
                 personJob="Full-stack developer"
-                email="yinonmegi2212@gmail.com"
-                phone="(+972)054-995-3530"
+                email="example@go.com"
+                phone="000000000000"
                 selfReview="Self-motivated developer, who is willing to learn and create new things. Love to develop full stack applications :)"
             />
 
