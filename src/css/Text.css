@@ -1,0 +1,35 @@
+.text{
+    font-size: 1.3rem;
+    color: var(--text-color);
+    font-family: 'Montserrat', sans-serif;
+    width: fit-content;
+}
+
+/*Text sizes*/
+.small{
+    font-size: 0.9rem;
+}
+
+
+/*Text colors*/
+.txt-gray{
+    color: var(--gray);
+}
+
+.light-gray-txt{
+    color: #e5e5e5;
+}
+
+.blue-txt{
+    color: var(--blue);
+}
+
+/*Special*/
+.light-bold{
+    font-weight: 500;
+}
+
+.bold{
+    font-weight: 600;
+}
+

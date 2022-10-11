@@ -1,0 +1,28 @@
+.person-card{
+    display: flex;
+    width: 100%;
+}
+
+.person-card .person-img{
+    width: 150px;
+    border-radius: 10px;
+}
+
+.person-card .person-details-container {
+    margin-left: 50px;
+}
+
+.person-card .person-details-container .person-details-top{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.person-card .person-details-container .person-details-top .pd-top-left .person-name,
+.person-card .person-details-container .person-details-top .pd-top-right .icon-text:nth-child(1){
+    margin-bottom: 10px;
+}
+
+.person-card .person-details-container .person-details-body{
+    width: 70%;
+}

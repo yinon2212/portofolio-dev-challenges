@@ -1,0 +1,16 @@
+.filter-box{
+    width: 100%;
+}
+
+.filter-box .filter-box-topic{
+    margin-bottom: 20px;
+}
+
+.filter-box .filters{
+    width: 100%;
+    display: flex;
+}
+
+.filter-box .filters .filter{
+    margin-right: 20px;
+}

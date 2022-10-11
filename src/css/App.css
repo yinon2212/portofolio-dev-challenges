@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    --blue: rgb(41, 123, 255);
+    --bg-color: rgb(241, 241, 241);
+    --text-color: #4F4F4F;
+    --gray: #828282;
+}
+
+html, body{
+    width: 100%;
+    height: 100vh;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+#root{
+    width: calc(50% + 90px);
+    align-self: center;
+    margin: 50px auto;
+}
+
+.card{
+    box-shadow: 1px 5px 10px rgba(177, 177, 177, 0.236);
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/*Person card*/
+.person-card{
+    margin-bottom: 40px;
+}
+
+/*About me*/
+.about-me{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.about-me .left-container{
+    margin-right: 40px;
+    width: fit-content;
+    position: relative;
+}
+
+.about-me .left-container .skills-card{
+    width: calc(100% - 50px);
+}
+
+.about-me .left-container .skills-card,
+.about-me .right-container .blog-card{
+    margin-bottom: 40px;
+}
+
+/*Projects Section*/
+.projects-section {
+    padding-bottom: 90px;
+}
+
+
+.projects-section .projects-container{
+    display: flex;
+    width: calc(100% + 50px);
+    margin-top: 40px;
+}
+
+.projects-section .projects-container > *{
+    margin-right: 40px;
+}
+
+/*Responsive*/
+@media screen and (max-width: 1000px) {
+    #root{
+        width: 90%;
+    }
+
+    /*Person Card*/
+    .person-card{
+        flex-direction: column;
+        width: calc(100% - 50px);
+    }
+    .person-card .person-img{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+
+    .person-card .person-details-top{
+        flex-direction: column;
+    }
+
+    .person-card .person-details-top .pd-top-left{
+        margin-bottom: 30px;
+    }
+    /*About me*/
+    .about-me{
+        flex-direction: column;
+        width: 100%;
+    }
+    .about-me .left-container{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .about-me .left-container .list-card .image-card{
+        width: 70%;
+    }
+
+    /*Filters box*/
+    .projects-section .filter-box{
+        width: calc(100% - 50px);
+    }
+
+    .projects-section .projects-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects-section .projects-container > *{
+        margin-bottom: 40px;
+    }
+
+}

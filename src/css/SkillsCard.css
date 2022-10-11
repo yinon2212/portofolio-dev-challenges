@@ -1,0 +1,19 @@
+.skills-card{
+    width: fit-content;
+}
+
+.skills-card .card-topic{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.skills-card .skills-container .skill{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.skills-card .skills-container .skill .skill-name{
+    margin-right: 30px;
+}

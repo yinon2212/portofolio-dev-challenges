@@ -1,0 +1,33 @@
+.blog-card{
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.blog-card .blog-top{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 40px 0;
+}
+
+.blog-card .blog-top .text{
+    width: 25%;
+}
+
+.blog-card .blog-top .blog-img{
+    width: 50%;
+    border-radius: 10px 0 0 10px;
+    position: relative;
+    left: 25px;
+    object-fit: cover;
+}
+
+.blog-card .blog-body{
+    width: 80%;
+    margin-bottom: 60px;
+}
+
+.blog-card .blog-body .text{
+    line-height: 1.5;
+}

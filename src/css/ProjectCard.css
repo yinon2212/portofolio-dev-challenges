@@ -1,0 +1,43 @@
+.project-card{
+    width: 300px;
+}
+
+.project-card .project-img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project-card .project-details-container{
+
+    width: fit-content;
+}
+
+.project-card .project-details-container .tags{
+    display: flex;
+    width: fit-content;
+    margin: 20px 0;
+}
+
+.project-card .project-details-container .tags .tag{
+ margin-right: 10px;   
+}
+
+.project-card .project-details-container .project-name,
+.project-card .project-details-container .project-description{
+    margin-bottom: 20px;
+}
+
+.project-card .project-details-container .project-description{
+    width: 100%;
+}
+
+.project-card .project-details-container .project-buttons{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    width: fit-content;
+}
+
+.project-card .project-details-container .project-buttons .button:nth-child(1){
+    margin-right: 10px;
+}

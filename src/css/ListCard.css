@@ -1,0 +1,7 @@
+.list-card .list-card-topic{
+    margin-bottom: 20px;
+}
+
+.list-card .items-container > *{
+    box-shadow: none;
+}
